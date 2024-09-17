@@ -1,0 +1,73 @@
+.CodeInput {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.CodeInput h2 {
+  color: #141951;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.inputs_code {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+
+  text-align: center;
+}
+
+.input-form_code {
+  width: 100%;
+  height: 50px;
+  background: #eae9e9;
+  border-radius: 6px;
+  color: #141951;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.input-form_code:focus {
+  border: 1px solid #e8e8e8;
+}
+
+.submit-container_code {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.submit_code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  height: 45px;
+  background: #141951;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#container_error_code {
+  color: #ff0033;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+}
