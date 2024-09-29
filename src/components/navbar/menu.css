@@ -1,0 +1,53 @@
+.block-menu {
+
+    position: absolute;
+    top: 60px;
+    z-index: 5;
+    right: 35px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    box-shadow: 0px 0px 27px -7px rgba(99, 99, 99, 0.67);
+    -webkit-box-shadow: 0px 0px 27px -7px rgba(99, 99, 99, 0.67);
+    -moz-box-shadow: 0px 0px 27px -7px rgba(99, 99, 99, 0.67);
+    animation: scale-up-right .1s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+.block-menu__list {
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+}
+
+.block-menu__list hr {
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.block-menu__item {
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.item-perfil {
+    color: rgb(63, 63, 63);
+}
+
+
+.scale-up-right {
+    animation: scale-up-right .1s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+
+
+@keyframes scale-up-right {
+    0% {
+        transform: scale(.5);
+        transform-origin: 100% 50%
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 100% 50%
+    }
+}
