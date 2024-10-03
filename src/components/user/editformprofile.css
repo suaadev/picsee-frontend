@@ -1,0 +1,224 @@
+.container-edit-profile {
+    width: 100%;
+}
+
+.form-edit-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+
+.form-edit-profile input {
+    font-size: 14px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.container-avatar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.container-image {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+.header-edit-form {
+    border: none;
+    position: relative;
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+}
+
+.img-avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 100px;
+}
+
+.container_inputs_file {
+    display: flex;
+    width: 50%;
+    height: min-content;
+    align-items: center;
+
+    gap: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#input_file {
+    display: none;
+}
+
+
+
+.forms {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.forms input,
+textarea {
+    margin-top: 5px;
+
+}
+
+
+
+.container-edit-password,
+.container-edit-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: min-content;
+    gap: 20px;
+}
+
+
+#input_bio {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    min-height: 50px;
+    resize: vertical;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.input-field {
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-radius: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    height: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container-input-width-label {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-input-width-label input {
+    width: 100%;
+}
+
+
+.container-edit-border {
+    margin: 20px;
+    width: 70%;
+    height: 1px;
+    background-color: rgb(201, 199, 199);
+    border: none;
+}
+
+
+.button-edit-profile {
+    display: flex;
+    background-color: #efefef;
+    height: 33px;
+    width: 30%;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0;
+    border-radius: 4px;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    color: black;
+    text-wrap: nowrap;
+}
+
+.button-edit-profile:hover {
+    background-color: #dddddd;
+    transition: all 0.2s;
+}
+
+.delete-avatar {
+    color: rgb(248, 60, 60);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 90px;
+    background-color: #f3f3f3;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1121px) {
+    .form-edit-profile {
+        width: 95%;
+    }
+
+    .container-avatar {
+        width: 80%;
+
+    }
+
+    .container-edit-password,
+    .container-edit-info {
+        width: 100%;
+
+    }
+}
+
+
+
+@media (max-width: 1102px) {
+    .container-avatar {
+        width: 100%;
+    }
+
+    .container_inputs_file {
+
+        width: 50%;
+
+    }
+
+    .label_input_file {
+        width: 80%;
+    }
+
+    .button_send_file {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .container_inputs_file {
+        margin-top: 50px;
+        width: 100%;
+
+    }
+
+
+}
